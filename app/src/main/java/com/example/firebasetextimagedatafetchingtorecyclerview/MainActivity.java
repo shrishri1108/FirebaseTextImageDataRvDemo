@@ -41,21 +41,6 @@ public class MainActivity extends AppCompatActivity {
         myadapters = new RecyclerDataAdapter(options);
         mainBinding.recyclerView.setAdapter(myadapters);
 
-//        databaseReference.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot snapshot) {
-//                for(DataSnapshot dataSnapshot: snapshot.getChildren()){
-//                    FirebaseResponseModel model = dataSnapshot.getValue(FirebaseResponseModel.class);
-//                   mylists.add(model);
-//                   myadapters.notifyDataSetChanged();
-//                }
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError error) {
-//
-//            }
-//        });
     }
 
     @Override
