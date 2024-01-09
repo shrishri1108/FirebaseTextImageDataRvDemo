@@ -1,5 +1,6 @@
 package com.example.firebasetextimagedatafetchingtorecyclerview.Adapter;
 
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,7 +33,6 @@ public class RecyclerDataAdapter extends FirebaseRecyclerAdapter<FirebaseRespons
         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_layout, parent,false);
         return new itemviewHolder(view);
     }
-
 
 
     @Override
